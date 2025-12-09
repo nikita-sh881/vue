@@ -499,7 +499,6 @@ export default {
   cursor: pointer;
   padding: 0.25rem;
   border-radius: 4px;
-  transition: background-color 0.2s;
 }
 
 .copied-notification {
@@ -508,7 +507,7 @@ export default {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8rem;
-  animation: fadeInOut 2s ease-in-out;
+  /*animation: fadeInOut 2s ease-in-out;*/
 }
 
 @keyframes fadeInOut {

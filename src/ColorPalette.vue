@@ -380,11 +380,6 @@ export default {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.generate-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
-}
-
 .control-group {
   display: flex;
   flex-direction: column;
@@ -402,11 +397,6 @@ export default {
   border-radius: 6px;
   font-size: 1rem;
   transition: border-color 0.2s;
-}
-
-.select-input:focus {
-  outline: none;
-  border-color: #667eea;
 }
 
 .format-toggle {
@@ -437,10 +427,6 @@ export default {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.theme-toggle:hover {
-  background-color: #2d3748;
 }
 
 .palette-container {
@@ -476,11 +462,6 @@ export default {
   position: relative;
   cursor: pointer;
   transition: transform 0.2s;
-}
-
-.color-card:hover {
-  transform: scale(1.05);
-  z-index: 1;
 }
 
 .color-card.pinned {
@@ -519,10 +500,6 @@ export default {
   padding: 0.25rem;
   border-radius: 4px;
   transition: background-color 0.2s;
-}
-
-.pin-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .copied-notification {
